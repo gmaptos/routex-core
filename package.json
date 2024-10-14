@@ -1,0 +1,22 @@
+{
+  "name": "RouteX",
+  "version": "1.0.0",
+  "description": "Decentralized routing and swapping protocol for Movement blockchain",
+  "main": "index.js",
+  "scripts": {
+    "demoV2": "ts-node src/demoV2.ts"
+  },
+  "keywords": ["movement", "defi", "routing", "swapping", "blockchain"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.22.2",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  }
+}

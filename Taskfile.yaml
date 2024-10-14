@@ -1,0 +1,17 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  build_v2:
+    cmds:
+      - aptos move compile --named-addresses Routex=default
+    dir:
+      ./RoutexV2
+    sources:
+      - ./**/*.move
+  publish_v2:
+    cmds:
+      - aptos move publish --named-addresses Routex=default --assume-yes
+    dir:
+      ./RoutexV2
